@@ -1,0 +1,1610 @@
+{
+    "feats": [
+        {
+            "type": "Combat",
+            "name": "Greater Weapon Specialization",
+            "prerequisites": [
+                {
+                    "feat": "Weapon Specialization"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 12
+                    }
+                }
+            ],
+            "description": "+2 bonus on damage rolls with one weapon"
+        },
+        {
+            "type": "Combat",
+            "name": "Weapon Specialization",
+            "prerequisites": [
+                {
+                    "feat": "Weapon Focus"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 4
+                    }
+                }
+            ],
+            "description": "+2 bonus on damage rolls with one weapon"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Penetrating Strike",
+            "prerequisites": [
+                {
+                    "feat": "Penetrating Strike"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 16
+                    }
+                }
+            ],
+            "description": "Your attacks ignore 10 points of damage reduction"
+        },
+        {
+            "type": "Combat",
+            "name": "Penetrating Strike",
+            "prerequisites": [
+                {
+                    "feat": "Weapon Focus"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 12
+                    }
+                }
+            ],
+            "description": "Your attacks ignore 5 points of damage reduction"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Weapon Focus",
+            "prerequisites": [
+                {
+                    "feat": "Weapon Focus"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 8
+                    }
+                }
+            ],
+            "description": "+1 bonus on attack rolls with one weapon"
+        },
+        {
+            "type": "Combat",
+            "name": "Deadly Stroke",
+            "prerequisites": [
+                {
+                    "feat": "Greater Weapon Focus"
+                },
+                {
+                    "feat": "Shatter Defenses"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Deal double damage plus 1 Con bleed"
+        },
+        {
+            "type": "Combat",
+            "name": "Shatter Defenses",
+            "prerequisites": [
+                {
+                    "feat": "Dazzling Display"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Hindered foes are flat-footed"
+        },
+        {
+            "type": "Combat",
+            "name": "Dazzling Display",
+            "prerequisites": [
+                {
+                    "feat": "Weapon Focus"
+                }
+            ],
+            "description": "Intimidate all foes within 30 feet"
+        },
+        {
+            "type": "Combat",
+            "name": "Weapon Focus",
+            "prerequisites": [
+                {
+                    "unknown": "Proficiency with weapon"
+                },
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "+1 bonus on attack rolls with one weapon"
+        },
+        {
+            "type": "Combat",
+            "name": "Weapon Finesse",
+            "description": "Use Dex instead of Str on attack rolls with light weapons"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Vital Strike",
+            "prerequisites": [
+                {
+                    "feat": "Improved Vital Strike"
+                },
+                {
+                    "bab": "16"
+                }
+            ],
+            "description": "Deal four times the normal damage on a single attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Vital Strike",
+            "prerequisites": [
+                {
+                    "feat": "Vital Strike"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Deal three times the normal damage on a single attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Vital Strike",
+            "prerequisites": [
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Deal twice the normal damage on a single attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Two-Weapon Defense",
+            "prerequisites": [
+                {
+                    "feat": "Two-Weapon Fighting"
+                }
+            ],
+            "description": "Gain +1 shield bonus when fighting with two weapons"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Two-Weapon Fighting",
+            "prerequisites": [
+                {
+                    "dex": "19"
+                },
+                {
+                    "feat": "Improved Two-Weapon Fighting"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Gain a third off-hand attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Two-Weapon Fighting",
+            "prerequisites": [
+                {
+                    "dex": "17"
+                },
+                {
+                    "feat": "Two-Weapon Fighting"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Gain additional off-hand attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Two-Weapon Rend",
+            "prerequisites": [
+                {
+                    "feat": "Double Slice"
+                },
+                {
+                    "feat": "Improved Two-Weapon Fighting"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Rend a foe hit by both your weapons"
+        },
+        {
+            "type": "Combat",
+            "name": "Double Slice",
+            "prerequisites": [
+                {
+                    "feat": "Two-Weapon Fighting"
+                }
+            ],
+            "description": "Add your Str bonus to off-hand damage rolls"
+        },
+        {
+            "type": "Combat",
+            "name": "Two-Weapon Fighting",
+            "prerequisites": [
+                {
+                    "dex": "15"
+                }
+            ],
+            "description": "Reduce two-weapon fighting penalties"
+        },
+        {
+            "name": "Turn Undead",
+            "prerequisites": [
+                {
+                    "special": "Channel positive energy"
+                }
+            ],
+            "description": "Channel energy can be used to make undead flee"
+        },
+        {
+            "name": "Toughness",
+            "description": "+3 hit points, +1 per Hit Die beyond 3"
+        },
+        {
+            "type": "Combat",
+            "name": "Throw Anything",
+            "description": "No penalties for improvised ranged weapons"
+        },
+        {
+            "type": "Combat",
+            "name": "Strike Back",
+            "prerequisites": [
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Attack foes that strike you while using reach"
+        },
+        {
+            "type": "Combat",
+            "name": "Step Up",
+            "prerequisites": [
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "Take a 5-foot step as an immediate action"
+        },
+        {
+            "name": "Stealthy",
+            "description": "+2 bonus on Escape Artist and Stealth checks"
+        },
+        {
+            "name": "  Greater Spell Penetration",
+            "prerequisites": [
+                {
+                    "feat": "Spell Penetration"
+                }
+            ],
+            "description": "+2 bonus on level checks to beat spell resistance"
+        },
+        {
+            "name": "Spell Penetration",
+            "description": "+2 bonus on level checks to beat spell resistance"
+        },
+        {
+            "name": "Spell Mastery",
+            "prerequisites": [
+                {
+                    "classLevel": {
+                        "name": "Wizard",
+                        "level": 1
+                    }
+                }
+            ],
+            "description": "Prepare some spells without a spellbook"
+        },
+        {
+            "name": "  Greater Spell Focus",
+            "prerequisites": [
+                {
+                    "feat": "Spell Focus"
+                }
+            ],
+            "description": "+1 bonus on save DCs for one school"
+        },
+        {
+            "name": "Spell Focus",
+            "description": "+1 bonus on save DCs for one school"
+        },
+        {
+            "name": "Skill Focus",
+            "description": "+3 bonus on one skill (+6 at 10 ranks)"
+        },
+        {
+            "name": "Simple Weapon Proficiency",
+            "description": "No penalty on attacks made with simple weapons"
+        },
+        {
+            "type": "Combat",
+            "name": "Tower Shield Proficiency",
+            "prerequisites": [
+                {
+                    "feat": "Shield Proficiency"
+                }
+            ],
+            "description": "No penalties on attack rolls when using a tower shield"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Shield Focus",
+            "prerequisites": [
+                {
+                    "feat": "Shield Focus"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 8
+                    }
+                }
+            ],
+            "description": "Gain a +1 bonus to your AC when using a shield"
+        },
+        {
+            "type": "Combat",
+            "name": "Shield Focus",
+            "prerequisites": [
+                {
+                    "feat": "Shield Proficiency"
+                },
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "Gain a +1 bonus to your AC when using a shield"
+        },
+        {
+            "type": "Combat",
+            "name": "Shield Master",
+            "prerequisites": [
+                {
+                    "feat": "Shield Slam"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "No two-weapon penalties when attacking with a shield"
+        },
+        {
+            "type": "Combat",
+            "name": "Shield Slam",
+            "prerequisites": [
+                {
+                    "feat": "Improved Shield Bash"
+                },
+                {
+                    "feat": "Two-Weapon Fighting"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Free bull rush with a bash attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Shield Bash",
+            "prerequisites": [
+                {
+                    "feat": "Shield Proficiency"
+                }
+            ],
+            "description": "Keep your shield bonus when shield bashing"
+        },
+        {
+            "name": "Shield Proficiency",
+            "description": "No penalties on attack rolls when using a shield"
+        },
+        {
+            "name": "Self-Sufficient",
+            "description": "+2 bonus on Heal and Survival checks"
+        },
+        {
+            "name": "Selective Channeling",
+            "prerequisites": [
+                {
+                    "cha": "13"
+                },
+                {
+                    "special": "channel energy"
+                }
+            ],
+            "description": "Choose whom to affect with channel energy"
+        },
+        {
+            "name": "Run",
+            "description": "Run at 5 times your normal speed"
+        },
+        {
+            "type": "Combat",
+            "name": "Rapid Reload",
+            "prerequisites": [
+                {
+                    "unknown": "Weapon proficiency (crossbow)"
+                }
+            ],
+            "description": "Reload crossbow quickly"
+        },
+        {
+            "type": "Combat",
+            "name": "Quick Draw",
+            "prerequisites": [
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "Draw weapon as a free action"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Sunder",
+            "prerequisites": [
+                {
+                    "feat": "Improved Sunder"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Damage from sunder attempts transfers to your enemy"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Sunder",
+            "prerequisites": [
+                {
+                    "feat": "Power Attack"
+                }
+            ],
+            "description": "+2 bonus on sunder attempts, no attack of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Overrun",
+            "prerequisites": [
+                {
+                    "feat": "Improved Overrun"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Enemies you overrun provoke attacks of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Overrun",
+            "prerequisites": [
+                {
+                    "feat": "Power Attack"
+                }
+            ],
+            "description": "+2 bonus on overrun attempts, no attack of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Bull Rush",
+            "prerequisites": [
+                {
+                    "feat": "Improved Bull Rush"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Enemies you bull rush provoke attacks of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Bull Rush",
+            "prerequisites": [
+                {
+                    "feat": "Power Attack"
+                }
+            ],
+            "description": "+2 bonus on bull rush attempts, no attack of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Great Cleave",
+            "prerequisites": [
+                {
+                    "feat": "Cleave"
+                },
+                {
+                    "bab": "4"
+                }
+            ],
+            "description": "Make an additional attack after each attack hits"
+        },
+        {
+            "type": "Combat",
+            "name": "Cleave",
+            "prerequisites": [
+                {
+                    "feat": "Power Attack"
+                }
+            ],
+            "description": "Make an additional attack if the first one hits"
+        },
+        {
+            "type": "Combat",
+            "name": "Power Attack",
+            "prerequisites": [
+                {
+                    "str": "13"
+                },
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "Trade melee attack bonus for damage"
+        },
+        {
+            "type": "Combat",
+            "name": "Manyshot",
+            "prerequisites": [
+                {
+                    "dex": "17"
+                },
+                {
+                    "feat": "Rapid Shot"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Shoot two arrows simultaneously"
+        },
+        {
+            "type": "Combat",
+            "name": "Rapid Shot",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "feat": "Point-Blank Shot"
+                }
+            ],
+            "description": "Make one extra ranged attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Shot on the Run",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "feat": "Mobility"
+                },
+                {
+                    "feat": "Point-Blank Shot"
+                },
+                {
+                    "bab": "4"
+                }
+            ],
+            "description": "Make ranged attack at any point during movement"
+        },
+        {
+            "type": "Combat",
+            "name": "Pinpoint Targeting",
+            "prerequisites": [
+                {
+                    "unknown": "Improved Precise Shot"
+                },
+                {
+                    "bab": "16"
+                }
+            ],
+            "description": "No armor or shield bonus on one ranged attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved PreciseShot",
+            "prerequisites": [
+                {
+                    "dex": "19"
+                },
+                {
+                    "feat": "Precise Shot"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "No cover or concealment chance on ranged attacks"
+        },
+        {
+            "type": "Combat",
+            "name": "Precise Shot",
+            "prerequisites": [
+                {
+                    "feat": "Point-Blank Shot"
+                }
+            ],
+            "description": "No penalty for shooting into melee"
+        },
+        {
+            "type": "Combat",
+            "name": "Far Shot",
+            "prerequisites": [
+                {
+                    "feat": "Point-Blank Shot"
+                }
+            ],
+            "description": "Decrease ranged penalties by half"
+        },
+        {
+            "type": "Combat",
+            "name": "Point-Blank Shot",
+            "description": "+1 attack and damage on targets within 30 feet"
+        },
+        {
+            "name": "Persuasive",
+            "description": " +2 bonus on Diplomacy and Intimidate checks"
+        },
+        {
+            "name": "  Acrobatic Steps",
+            "prerequisites": [
+                {
+                    "dex": "15"
+                },
+                {
+                    "feat": "Nimble Moves"
+                }
+            ],
+            "description": "Ignore 20 feet of difficult terrain when you move"
+        },
+        {
+            "name": "Nimble Moves",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                }
+            ],
+            "description": "Ignore 5 feet of difficult terrain when you move"
+        },
+        {
+            "name": "Natural Spell",
+            "prerequisites": [
+                {
+                    "wis": "13"
+                },
+                {
+                    "special": "wild shape"
+                }
+            ],
+            "description": "Cast spells while using wild shape"
+        },
+        {
+            "type": "Combat",
+            "name": "Unseat",
+            "prerequisites": [
+                {
+                    "feat": "Improved Bull Rush"
+                },
+                {
+                    "feat": "Mounted Combat"
+                }
+            ],
+            "description": "Knock opponents from their mounts"
+        },
+        {
+            "type": "Combat",
+            "name": "Trample",
+            "prerequisites": [
+                {
+                    "feat": "Mounted Combat"
+                }
+            ],
+            "description": "Overrun targets while mounted"
+        },
+        {
+            "type": "Combat",
+            "name": "Spirited Charge",
+            "prerequisites": [
+                {
+                    "feat": "Ride-By Attack"
+                }
+            ],
+            "description": "Double damage on a mounted charge"
+        },
+        {
+            "type": "Combat",
+            "name": "Ride-By Attack",
+            "prerequisites": [
+                {
+                    "feat": "Mounted Combat"
+                }
+            ],
+            "description": "Move before and after a charge attack while mounted"
+        },
+        {
+            "type": "Combat",
+            "name": "Mounted Archery",
+            "prerequisites": [
+                {
+                    "feat": "Mounted Combat"
+                }
+            ],
+            "description": "Halve the penalty for ranged attacks while mounted"
+        },
+        {
+            "type": "Combat",
+            "name": "Mounted Combat",
+            "prerequisites": [
+                {
+                    "unknown": "Ride 1 rank"
+                }
+            ],
+            "description": "Avoid attacks on mount with Ride check"
+        },
+        {
+            "name": "Master Craftsman",
+            "prerequisites": [
+                {
+                    "unknown": "5 ranks in any Craft or Profession skill"
+                }
+            ],
+            "description": "You can craft magic items without being a spellcaster"
+        },
+        {
+            "name": "Martial Weapon Proficiency",
+            "description": "No penalty on attacks made with one martial weapon"
+        },
+        {
+            "name": "Magical Aptitude",
+            "description": "+2 bonus on Spellcraft and Use Magic Device checks"
+        },
+        {
+            "type": "Combat",
+            "name": "Lunge",
+            "prerequisites": [
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Take a –2 penalty to your AC to attack with reach"
+        },
+        {
+            "name": "  Improved Lightning Reflexes",
+            "prerequisites": [
+                {
+                    "feat": "Lightning Reflexes"
+                }
+            ],
+            "description": "Once per day, you may reroll a Reflex save"
+        },
+        {
+            "name": "Lightning Reflexes",
+            "description": "+2 bonus on Reflex saves"
+        },
+        {
+            "name": "Leadership",
+            "prerequisites": [
+                {
+                    "unknown": "Character level 7th"
+                }
+            ],
+            "description": "Gain a cohort and followers"
+        },
+        {
+            "name": "  Improved Iron Will",
+            "prerequisites": [
+                {
+                    "feat": "Iron Will"
+                }
+            ],
+            "description": "Once per day, you may reroll a Will save"
+        },
+        {
+            "name": "Iron Will",
+            "description": "+2 bonus on Will saves"
+        },
+        {
+            "type": "Combat",
+            "name": "Intimidating Prowess",
+            "description": "Add Str to Intimidate in addition to Cha"
+        },
+        {
+            "type": "Combat",
+            "name": "Improvised Weapon Mastery",
+            "prerequisites": [
+                {
+                    "unknown": "Catch Off-Guard or Throw Anything"
+                },
+                {
+                    "bab": "8"
+                }
+            ],
+            "description": "Make an improvised weapon deadly"
+        },
+        {
+            "type": "Combat",
+            "name": "Stunning Fist",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "wis": "13"
+                },
+                {
+                    "feat": "Improved Unarmed Strike"
+                },
+                {
+                    "bab": "8"
+                }
+            ],
+            "description": "Stun opponent with an unarmed strike"
+        },
+        {
+            "type": "Combat",
+            "name": "Medusa's Wrath",
+            "prerequisites": [
+                {
+                    "feat": "Gorgon's Fist"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Make 2 extra attacks against a hindered foe"
+        },
+        {
+            "type": "Combat",
+            "name": "Gorgon's Fist",
+            "prerequisites": [
+                {
+                    "feat": "Scorpion Style"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Stagger a foe whose speed is reduced"
+        },
+        {
+            "type": "Combat",
+            "name": "Scorpion Style",
+            "prerequisites": [
+                {
+                    "feat": "Improved Unarmed Strike"
+                }
+            ],
+            "description": "Reduce target's speed to 5 ft."
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Grapple",
+            "prerequisites": [
+                {
+                    "feat": "Improved Grapple"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Maintain your grapple as a move action"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Grapple",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "feat": "Improved Unarmed Strike"
+                }
+            ],
+            "description": "+2 bonus on grapple attempts, no attack of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Snatch Arrows",
+            "prerequisites": [
+                {
+                    "dex": "15"
+                },
+                {
+                    "feat": "Deflect Arrows"
+                }
+            ],
+            "description": "Catch one ranged attack per round"
+        },
+        {
+            "type": "Combat",
+            "name": "Deflect Arrows",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "feat": "Improved Unarmed Strike"
+                }
+            ],
+            "description": "Avoid one ranged attack per round"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Unarmed Strike",
+            "description": "Always considered armed"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Initiative",
+            "description": "+4 bonus on initiative checks"
+        },
+        {
+            "name": "Improved Familiar",
+            "prerequisites": [
+                {
+                    "unknown": "Ability to acquire a familiar"
+                },
+                {
+                    "unknown": "see feat"
+                }
+            ],
+            "description": "Gain a more powerful familiar"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Critical",
+            "prerequisites": [
+                {
+                    "unknown": "Proficiency with weapon"
+                },
+                {
+                    "bab": "8"
+                }
+            ],
+            "description": "Double the threat range of one weapon"
+        },
+        {
+            "name": "Improved Counterspell",
+            "description": "Counterspell with spell of the same school"
+        },
+        {
+            "name": "Improved Channel",
+            "prerequisites": [
+                {
+                    "special": "Channel energy"
+                }
+            ],
+            "description": "+2 bonus on channel energy DC"
+        },
+        {
+            "name": "  Improved Great Fortitude",
+            "prerequisites": [
+                {
+                    "feat": "Great Fortitude"
+                }
+            ],
+            "description": "Once per day, you may reroll a Fortitude save"
+        },
+        {
+            "name": "Great Fortitude",
+            "description": "+2 on Fortitude saves"
+        },
+        {
+            "name": "Fleet",
+            "description": "Your base speed increases by 5 feet"
+        },
+        {
+            "name": "Extra Rage",
+            "prerequisites": [
+                {
+                    "special": "Rage"
+                }
+            ],
+            "description": "Use rage for 6 additional rounds per day"
+        },
+        {
+            "name": "Extra Performance",
+            "prerequisites": [
+                {
+                    "special": "Bardic performance"
+                }
+            ],
+            "description": "Use bardic performance for 6 additional rounds per day"
+        },
+        {
+            "name": "Extra Mercy",
+            "prerequisites": [
+                {
+                    "special": "Mercy"
+                }
+            ],
+            "description": "Your lay on hands benefits from one additional mercy"
+        },
+        {
+            "name": "Extra Lay On Hands",
+            "prerequisites": [
+                {
+                    "special": "Lay on hands"
+                }
+            ],
+            "description": "Use lay on hands two additional times per day"
+        },
+        {
+            "name": "Extra Ki",
+            "prerequisites": [
+                {
+                    "special": "Ki pool"
+                }
+            ],
+            "description": "Increase your ki pool by 2 points"
+        },
+        {
+            "name": "Extra Channel",
+            "prerequisites": [
+                {
+                    "special": "Channel energy"
+                }
+            ],
+            "description": "Channel energy two additional times per day"
+        },
+        {
+            "type": "Combat",
+            "name": "Exotic Weapon Proficiency",
+            "prerequisites": [
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "No penalty on attacks made with one exotic weapon"
+        },
+        {
+            "name": "Eschew Materials",
+            "description": "Cast spells without material components"
+        },
+        {
+            "name": "  Diehard",
+            "prerequisites": [
+                {
+                    "feat": "Endurance"
+                }
+            ],
+            "description": "Automatically stabilize and remain conscious below 0 hp"
+        },
+        {
+            "name": "Endurance",
+            "description": "+4 bonus on checks to avoid nonlethal damage"
+        },
+        {
+            "name": "Elemental Channel",
+            "prerequisites": [
+                {
+                    "special": "Channel energy"
+                }
+            ],
+            "description": "Channel energy can harm or heal elementals"
+        },
+        {
+            "type": "Combat",
+            "name": "Lightning Stance",
+            "prerequisites": [
+                {
+                    "dex": "17"
+                },
+                {
+                    "feat": "Wind Stance"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Gain 50% concealment if you move"
+        },
+        {
+            "type": "Combat",
+            "name": "Wind Stance",
+            "prerequisites": [
+                {
+                    "dex": "15"
+                },
+                {
+                    "feat": "Dodge"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Gain 20% concealment if you move"
+        },
+        {
+            "type": "Combat",
+            "name": "Spring Attack",
+            "prerequisites": [
+                {
+                    "feat": "Mobility"
+                },
+                {
+                    "bab": "4"
+                }
+            ],
+            "description": "Move before and after melee attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Mobility",
+            "prerequisites": [
+                {
+                    "feat": "Dodge"
+                }
+            ],
+            "description": "+4 AC against attacks of opportunity from movement"
+        },
+        {
+            "type": "Combat",
+            "name": "Dodge",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                }
+            ],
+            "description": "+1 dodge bonus to AC"
+        },
+        {
+            "type": "Combat",
+            "name": "Spellbreaker",
+            "prerequisites": [
+                {
+                    "feat": "Disruptive"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 10
+                    }
+                }
+            ],
+            "description": "Enemies provoke attacks if their spells fail"
+        },
+        {
+            "type": "Combat",
+            "name": "Disruptive",
+            "prerequisites": [
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 6
+                    }
+                }
+            ],
+            "description": "Increases the DC to cast spells adjacent to you"
+        },
+        {
+            "name": "Deft Hands",
+            "description": "+2 bonus on Disable Device and Sleight of Hand checks"
+        },
+        {
+            "type": "Combat",
+            "name": "Defensive Combat Training",
+            "description": "Use your total Hit Dice as your base attack bonus for CMD"
+        },
+        {
+            "name": "Deceitful",
+            "description": "+2 bonus on Bluff and Disguise checks"
+        },
+        {
+            "type": "Combat",
+            "name": "Deadly Aim",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "bab": "1"
+                }
+            ],
+            "description": "Trade ranged attack bonus for damage"
+        },
+        {
+            "type": "Combat",
+            "name": "Exhausting Critical",
+            "prerequisites": [
+                {
+                    "feat": "Tiring Critical"
+                },
+                {
+                    "bab": "15"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is exhausted"
+        },
+        {
+            "type": "Combat",
+            "name": "Tiring Critical",
+            "prerequisites": [
+                {
+                    "feat": "Critical Focus"
+                },
+                {
+                    "bab": "13"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is fatigued"
+        },
+        {
+            "type": "Combat",
+            "name": "Stunning Critical",
+            "prerequisites": [
+                {
+                    "feat": "Staggering Critical"
+                },
+                {
+                    "bab": "17"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is stunned"
+        },
+        {
+            "type": "Combat",
+            "name": "Staggering Critical",
+            "prerequisites": [
+                {
+                    "feat": "Critical Focus"
+                },
+                {
+                    "bab": "13"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is staggered"
+        },
+        {
+            "type": "Combat",
+            "name": "Sickening Critical",
+            "prerequisites": [
+                {
+                    "feat": "Critical Focus"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is sickened"
+        },
+        {
+            "type": "Combat",
+            "name": "Deafening Critical",
+            "prerequisites": [
+                {
+                    "feat": "Critical Focus"
+                },
+                {
+                    "bab": "13"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is deafened"
+        },
+        {
+            "type": "Combat",
+            "name": "Critical Mastery",
+            "prerequisites": [
+                {
+                    "unknown": "Any two critical feats"
+                },
+                {
+                    "classLevel": {
+                        "name": "Fighter",
+                        "level": 14
+                    }
+                }
+            ],
+            "description": "Apply two effects to your critical hits"
+        },
+        {
+            "type": "Combat",
+            "name": "Blinding Critical",
+            "prerequisites": [
+                {
+                    "feat": "Critical Focus"
+                },
+                {
+                    "bab": "15"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target is blinded"
+        },
+        {
+            "type": "Combat",
+            "name": "Bleeding Critical",
+            "prerequisites": [
+                {
+                    "feat": "Critical Focus"
+                },
+                {
+                    "bab": "11"
+                }
+            ],
+            "description": "Whenever you score a critical hit, the target takes 2d6 bleed"
+        },
+        {
+            "type": "Combat",
+            "name": "Critical Focus",
+            "prerequisites": [
+                {
+                    "bab": "9"
+                }
+            ],
+            "description": "+4 bonus on attack rolls made to confirm critical hits"
+        },
+        {
+            "name": "Command Undead",
+            "prerequisites": [
+                {
+                    "special": "Channel negative energy"
+                }
+            ],
+            "description": "Channel energy can be used to control undead"
+        },
+        {
+            "type": "Combat",
+            "name": "Stand Still",
+            "prerequisites": [
+                {
+                    "feat": "Combat Reflexes"
+                }
+            ],
+            "description": "Stop enemies from moving past you"
+        },
+        {
+            "type": "Combat",
+            "name": "Combat Reflexes",
+            "description": "Make additional attacks of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Whirlwind Attack",
+            "prerequisites": [
+                {
+                    "dex": "13"
+                },
+                {
+                    "feat": "Combat Expertise"
+                },
+                {
+                    "feat": "Spring Attack"
+                },
+                {
+                    "bab": "4"
+                }
+            ],
+            "description": "Make one melee attack against all foes within reach"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Trip",
+            "prerequisites": [
+                {
+                    "feat": "Improved Trip"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Enemies you trip provoke attacks of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Trip",
+            "prerequisites": [
+                {
+                    "feat": "Combat Expertise"
+                }
+            ],
+            "description": "+2 bonus on trip attempts, no attack of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Feint",
+            "prerequisites": [
+                {
+                    "feat": "Improved Feint"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Enemies you feint lose their Dex bonus for 1 round"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Feint",
+            "prerequisites": [
+                {
+                    "feat": "Combat Expertise"
+                }
+            ],
+            "description": "Feint as a move action"
+        },
+        {
+            "type": "Combat",
+            "name": "Greater Disarm",
+            "prerequisites": [
+                {
+                    "feat": "Improved Disarm"
+                },
+                {
+                    "bab": "6"
+                }
+            ],
+            "description": "Disarmed weapons are knocked away from your enemy"
+        },
+        {
+            "type": "Combat",
+            "name": "Improved Disarm",
+            "prerequisites": [
+                {
+                    "feat": "Combat Expertise"
+                }
+            ],
+            "description": "+2 bonus on disarm attempts, no attack of opportunity"
+        },
+        {
+            "type": "Combat",
+            "name": "Combat Expertise",
+            "prerequisites": [
+                {
+                    "int": "13"
+                }
+            ],
+            "description": "Trade attack bonus for AC bonus"
+        },
+        {
+            "name": "Combat Casting",
+            "description": "+4 bonus on concentration checks for casting defensively"
+        },
+        {
+            "type": "Combat",
+            "name": "Channel Smite",
+            "prerequisites": [
+                {
+                    "special": "Channel energy"
+                }
+            ],
+            "description": "Channel energy through your attack"
+        },
+        {
+            "type": "Combat",
+            "name": "Catch Off-Guard",
+            "description": "No penalties for improvised melee weapons"
+        },
+        {
+            "type": "Combat",
+            "name": "Blind-Fight",
+            "description": "Reroll miss chances for concealment"
+        },
+        {
+            "name": "Augment Summoning",
+            "prerequisites": [
+                {
+                    "unknown": "Spell Focus (conjuration)"
+                }
+            ],
+            "description": "Summoned creatures gain +4 Str and Con"
+        },
+        {
+            "name": "Athletic",
+            "description": "+2 bonus on Climb and Swim checks"
+        },
+        {
+            "name": "    Armor Proficiency, Heavy",
+            "prerequisites": [
+                {
+                    "feat": "Armor Proficiency, Medium"
+                }
+            ],
+            "description": "No penalties on attack rolls while wearing heavy armor"
+        },
+        {
+            "name": "  Armor Proficiency, Medium",
+            "prerequisites": [
+                {
+                    "feat": "Armor Proficiency, Light"
+                }
+            ],
+            "description": "No penalties on attack rolls while wearing medium armor"
+        },
+        {
+            "name": "Armor Proficiency, Light",
+            "description": "No penalties on attack rolls while wearing light armor"
+        },
+        {
+            "type": "Combat",
+            "name": "Arcane Strike",
+            "prerequisites": [
+                {
+                    "unknown": "Ability to cast arcane spells"
+                }
+            ],
+            "description": "+1 damage and weapons are considered magic"
+        },
+        {
+            "type": "Combat",
+            "name": "Arcane Armor Mastery",
+            "prerequisites": [
+                {
+                    "feat": "Arcane Armor Training"
+                },
+                {
+                    "feat": "Armor Proficiency, Medium"
+                },
+                {
+                    "unknown": "caster level 7th"
+                }
+            ],
+            "description": "Reduce your arcane spell failure chance by 20%"
+        },
+        {
+            "type": "Combat",
+            "name": "Arcane Armor Training",
+            "prerequisites": [
+                {
+                    "feat": "Armor Proficiency, Light"
+                },
+                {
+                    "unknown": "caster level 3rd"
+                }
+            ],
+            "description": "Reduce your arcane spell failure chance by 10%"
+        },
+        {
+            "name": "Animal Affinity",
+            "description": "+2 bonus on Handle Animal and Ride checks"
+        },
+        {
+            "name": "Alignment Channel",
+            "prerequisites": [
+                {
+                    "special": "Channel energy"
+                }
+            ],
+            "description": "Channel energy can heal or harm outsiders"
+        },
+        {
+            "name": "Alertness",
+            "description": "+2 bonus on Perception and Sense Motive checks"
+        },
+        {
+            "type": "Combat",
+            "name": "Agile Maneuvers",
+            "description": "Use your Dex bonus when calculating your CMB"
+        },
+        {
+            "name": "Acrobatic",
+            "description": "+2 bonus on Acrobatics and Fly checks"
+        }
+    ]
+}
