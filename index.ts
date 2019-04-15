@@ -9,16 +9,15 @@ const session = driver.session();
 const url = 'http://legacy.aonprd.com/coreRulebook/equipment.html';//for pulling the sorcers spell to change use the correct page
 Axios.get(url).then(res => {
     const $: JQueryStatic = cheerio.load(res.data);//dont change
-    const Item = [];
+    const Weapon = [];
     let Type: any = 'unarmed';
     let pro: any = '';
-    $('#table-6-9-goods-and-services').children().each(function (i) {//jquery selector #id . is for class
+    $('#table-6-4-weapons').children().each(function (i) {//jquery selector #id . is for class
         if ($(this).is('thead')) {
             $(this).children().each(function (k) {
                 $(this).children().each(function (j) {
                     if (j == 0) {
-                        //pro = $(this).text();
-                        //console.log("this is pro" + pro);
+                        pro = $(this).text();
                     }
 
                 })
@@ -27,64 +26,67 @@ Axios.get(url).then(res => {
         }
         if ($(this).is('tbody')) {
             $(this).children().each(function (k) {
-                let item: any = {};
+                let weapon:any = {};
                 $(this).children().each(function (j) {
+                    weapon.proficiency = pro;
                     if (j == 0) {
                         if ($(this).attr('colspan') == '9') {
                             Type = $(this).text();
                         }
                         else {
-                            item.name = $(this).text();
+                            weapon.WeaponType = Type;
+                            weapon.name = $(this).text();
                             console.log($(this).text());
                         }
 
                     }
                     else if (j == 1) {
                         if ($(this).text() != '—') {
-                            item.cost = $(this).text();
+                            weapon.cost = $(this).text();
                         }
                     }
                     else if (j == 2) {
                         if ($(this).text() != '—') {
-                            item.weight = $(this).text();
+                            weapon.dmgS = $(this).text();
                         }
                     }
                     else if (j == 3) {
                         if ($(this).text() != '—') {
-                            item.maxDexBonus = $(this).text();
+                            weapon.dmgM = $(this).text();
                         }
                     }
                     else if (j == 4) {
                         if ($(this).text() != '—') {
-                            item.ACP = $(this).text();
+                            weapon.critMultiplier = $(this).text();
                         }
                     }
                     else if (j == 5) {
                         if ($(this).text() != '—') {
-                            item.ArcaneSpellFailure = $(this).text();
+                            weapon.rangeIncrement = $(this).text();
                         }
                     }
                     else if (j == 6) {
                         if ($(this).text() != '—') {
-                            item.speed30 = $(this).text();
+                            weapon.weight = $(this).text();
                         }
                     }
                     else if (j == 7) {
                         if ($(this).text() != '—') {
-                            item.speed20 = $(this).text();
+                            weapon.dmgType = $(this).text();
                         }
                     }
                     else if (j == 8) {
                         if ($(this).text() != '—') {
-                            item.weight = $(this).text();
+                            weapon.special = $(this).text();
                         }
                     }
                 })
-                //Item.push(item);
-                if (Object.keys(item).length > 0) {
-                    Item.push(item);
+                //Weapon.push(weapon);
+                if (Object.keys(weapon).length > 0) {
+                    Weapon.push(weapon);
                 }
             })
+           
 
         }
 
@@ -97,7 +99,7 @@ Axios.get(url).then(res => {
     levels.forEach((level, i) => {
         query += `set l${i + 1}.knownSpells = [${level}]\n`;
     });*/
-    writeFileSync("Items.json", JSON.stringify({ Item }, null, 4))//level is the data 
+    writeFileSync("Weapons.json", JSON.stringify({ Weapon }, null, 4))//level is the data 
     //return session.run(query);// do not call till ready 
 }).catch(err => {
     console.log(err);
