@@ -1,0 +1,761 @@
+{
+    "Item": [
+        {
+            "name": "Backpack (empty)",
+            "cost": "2 gp",
+            "weight": "2 lbs.1"
+        },
+        {
+            "name": "Barrel (empty)",
+            "cost": "2 gp",
+            "weight": "30 lbs."
+        },
+        {
+            "name": "Basket (empty)",
+            "cost": "4 sp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Bedroll",
+            "cost": "1 sp",
+            "weight": "5 lbs.1"
+        },
+        {
+            "name": "Bell",
+            "cost": "1 gp"
+        },
+        {
+            "name": "Blanket, winter",
+            "cost": "5 sp",
+            "weight": "3 lbs.1"
+        },
+        {
+            "name": "Block and tackle",
+            "cost": "5 gp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Bottle, glass",
+            "cost": "2 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Bucket (empty)",
+            "cost": "5 sp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Caltrops",
+            "cost": "1 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Candle",
+            "cost": "1 cp"
+        },
+        {
+            "name": "Canvas (sq. yd.)",
+            "cost": "1 sp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Case, map or scroll",
+            "cost": "1 gp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Chain (10 ft.)",
+            "cost": "30 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Chalk, 1 piece",
+            "cost": "1 cp"
+        },
+        {
+            "name": "Chest (empty)",
+            "cost": "2 gp",
+            "weight": "25 lbs."
+        },
+        {
+            "name": "Crowbar",
+            "cost": "2 gp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Firewood (per day)",
+            "cost": "1 cp",
+            "weight": "20 lbs."
+        },
+        {
+            "name": "Fishhook",
+            "cost": "1 sp"
+        },
+        {
+            "name": "Fishing net, 25 sq. ft.",
+            "cost": "4 gp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Flask (empty)",
+            "cost": "3 cp",
+            "weight": "1-1/2 lbs."
+        },
+        {
+            "name": "Flint and steel",
+            "cost": "1 gp"
+        },
+        {
+            "name": "Grappling hook",
+            "cost": "1 gp",
+            "weight": "4 lbs."
+        },
+        {
+            "name": "Hammer",
+            "cost": "5 sp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Hourglass",
+            "cost": "25 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Ink (1 oz. vial)",
+            "cost": "8 gp"
+        },
+        {
+            "name": "Inkpen",
+            "cost": "1 sp"
+        },
+        {
+            "name": "Jug, clay",
+            "cost": "3 cp",
+            "weight": "9 lbs."
+        },
+        {
+            "name": "Ladder, 10-foot",
+            "cost": "2 sp",
+            "weight": "20 lbs."
+        },
+        {
+            "name": "Lamp, common",
+            "cost": "1 sp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Lantern, bullseye",
+            "cost": "12 gp",
+            "weight": "3 lbs."
+        },
+        {
+            "name": "Lantern, hooded",
+            "cost": "7 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Lock, Simple",
+            "cost": "20 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Lock, Average",
+            "cost": "40 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Lock, Good",
+            "cost": "80 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Lock, Superior",
+            "cost": "150 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Manacles",
+            "cost": "15 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Manacles, masterwork",
+            "cost": "50 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Mirror, small steel",
+            "cost": "10 gp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Mug/Tankard, clay",
+            "cost": "2 cp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Oil (1-pint flask)",
+            "cost": "1 sp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Paper (sheet)",
+            "cost": "4 sp"
+        },
+        {
+            "name": "Parchment (sheet)",
+            "cost": "2 sp"
+        },
+        {
+            "name": "Pick, miner's",
+            "cost": "3 gp",
+            "weight": "10 lbs."
+        },
+        {
+            "name": "Pitcher, clay",
+            "cost": "2 cp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Piton",
+            "cost": "1 sp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Pole, 10-foot",
+            "cost": "5 cp",
+            "weight": "8 lbs."
+        },
+        {
+            "name": "Pot, iron",
+            "cost": "8 sp",
+            "weight": "4 lbs."
+        },
+        {
+            "name": "Pouch, belt (empty)",
+            "cost": "1 gp",
+            "weight": "1/2 lb.1"
+        },
+        {
+            "name": "Ram, portable",
+            "cost": "10 gp",
+            "weight": "20 lbs."
+        },
+        {
+            "name": "Rations, trail (per day)",
+            "cost": "5 sp",
+            "weight": "1 lb.1"
+        },
+        {
+            "name": "Rope, hemp (50 ft.)",
+            "cost": "1 gp",
+            "weight": "10 lbs."
+        },
+        {
+            "name": "Rope, silk (50 ft.)",
+            "cost": "10 gp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Sack (empty)",
+            "cost": "1 sp",
+            "weight": "1/2 lb.1"
+        },
+        {
+            "name": "Sealing wax",
+            "cost": "1 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Sewing needle",
+            "cost": "5 sp"
+        },
+        {
+            "name": "Shovel or spade",
+            "cost": "2 gp",
+            "weight": "8 lbs."
+        },
+        {
+            "name": "Signal whistle",
+            "cost": "8 sp"
+        },
+        {
+            "name": "Signet ring",
+            "cost": "5 gp"
+        },
+        {
+            "name": "Sledge",
+            "cost": "1 gp",
+            "weight": "10 lbs."
+        },
+        {
+            "name": "Soap (per lb.)",
+            "cost": "5 sp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Spyglass",
+            "cost": "1,000 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Tent",
+            "cost": "10 gp",
+            "weight": "20 lbs.1"
+        },
+        {
+            "name": "Torch",
+            "cost": "1 cp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Vial, ink or potion",
+            "cost": "1 gp"
+        },
+        {
+            "name": "Water clock",
+            "cost": "1,000 gp",
+            "weight": "200 lbs."
+        },
+        {
+            "name": "Waterskin",
+            "cost": "1 gp",
+            "weight": "4 lbs.1"
+        },
+        {
+            "name": "Whetstone",
+            "cost": "2 cp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Acid (flask)",
+            "cost": "10 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Alchemist's fire (flask)",
+            "cost": "20 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Antitoxin (vial)",
+            "cost": "50 gp"
+        },
+        {
+            "name": "Everburning torch",
+            "cost": "110 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Holy water (flask)",
+            "cost": "25 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Smokestick",
+            "cost": "20 gp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Sunrod",
+            "cost": "2 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Tanglefoot bag",
+            "cost": "50 gp",
+            "weight": "4 lbs."
+        },
+        {
+            "name": "Thunderstone",
+            "cost": "30 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Tindertwig",
+            "cost": "1 gp"
+        },
+        {
+            "name": "Alchemist's lab",
+            "cost": "200 gp",
+            "weight": "40 lbs."
+        },
+        {
+            "name": "Artisan's tools",
+            "cost": "5 gp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Artisan's tools, masterwork",
+            "cost": "55 gp",
+            "weight": "5 lbs."
+        },
+        {
+            "name": "Climber's kit",
+            "cost": "80 gp",
+            "weight": "5 lbs.1"
+        },
+        {
+            "name": "Disguise kit",
+            "cost": "50 gp",
+            "weight": "8 lbs.1"
+        },
+        {
+            "name": "Healer's kit",
+            "cost": "50 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Holly and mistletoe"
+        },
+        {
+            "name": "Holy symbol, wooden",
+            "cost": "1 gp"
+        },
+        {
+            "name": "Holy symbol, silver",
+            "cost": "25 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Magnifying glass",
+            "cost": "100 gp"
+        },
+        {
+            "name": "Musical instrument, common",
+            "cost": "5 gp",
+            "weight": "3 lbs.1"
+        },
+        {
+            "name": "Musical instrument, masterwork",
+            "cost": "100 gp",
+            "weight": "3 lbs.1"
+        },
+        {
+            "name": "Scale, merchant's",
+            "cost": "2 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Spell component pouch",
+            "cost": "5 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Spellbook, wizard's (blank)",
+            "cost": "15 gp",
+            "weight": "3 lbs."
+        },
+        {
+            "name": "Thieves' tools",
+            "cost": "30 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Thieves' tools, masterwork",
+            "cost": "100 gp",
+            "weight": "2 lbs."
+        },
+        {
+            "name": "Tool, masterwork",
+            "cost": "50 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Artisan's outfit",
+            "cost": "1 gp",
+            "weight": "4 lbs.1"
+        },
+        {
+            "name": "Cleric's vestments",
+            "cost": "5 gp",
+            "weight": "6 lbs.1"
+        },
+        {
+            "name": "Cold-weather outfit",
+            "cost": "8 gp",
+            "weight": "7 lbs.1"
+        },
+        {
+            "name": "Courtier's outfit",
+            "cost": "30 gp",
+            "weight": "6 lbs.1"
+        },
+        {
+            "name": "Entertainer's outfit",
+            "cost": "3 gp",
+            "weight": "4 lbs.1"
+        },
+        {
+            "name": "Explorer's outfit",
+            "cost": "10 gp",
+            "weight": "8 lbs.1"
+        },
+        {
+            "name": "Monk's outfit",
+            "cost": "5 gp",
+            "weight": "2 lbs.1"
+        },
+        {
+            "name": "Noble's outfit",
+            "cost": "75 gp",
+            "weight": "10 lbs.1"
+        },
+        {
+            "name": "Peasant's outfit",
+            "cost": "1 sp",
+            "weight": "2 lbs.1"
+        },
+        {
+            "name": "Royal outfit",
+            "cost": "200 gp",
+            "weight": "15 lbs.1"
+        },
+        {
+            "name": "Scholar's outfit",
+            "cost": "5 gp",
+            "weight": "6 lbs.1"
+        },
+        {
+            "name": "Traveler's outfit",
+            "cost": "1 gp",
+            "weight": "5 lbs.1"
+        },
+        {
+            "name": "Ale, Gallon",
+            "cost": "2 sp",
+            "weight": "8 lbs."
+        },
+        {
+            "name": "Ale, Mug",
+            "cost": "4 cp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Banquet (per person)",
+            "cost": "10 gp"
+        },
+        {
+            "name": "Bread, loaf of",
+            "cost": "2 cp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Cheese, hunk of",
+            "cost": "1 sp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Inn stay (per day), Good",
+            "cost": "2 gp"
+        },
+        {
+            "name": "Inn stay (per day), Common",
+            "cost": "5 sp"
+        },
+        {
+            "name": "Inn stay (per day),Poor",
+            "cost": "2 sp"
+        },
+        {
+            "name": "Meals (per day), Good",
+            "cost": "5 sp"
+        },
+        {
+            "name": "Meals (per day), Common",
+            "cost": "3 sp"
+        },
+        {
+            "name": "Meals (per day), Poor",
+            "cost": "1 sp"
+        },
+        {
+            "name": "Meat, chunk of",
+            "cost": "3 sp",
+            "weight": "1/2 lb."
+        },
+        {
+            "name": "Wine, Common (pitcher)",
+            "cost": "2 sp",
+            "weight": "6 lbs."
+        },
+        {
+            "name": "Wine, Fine (bottle)",
+            "cost": "10 gp",
+            "weight": "1-1/2 lbs."
+        },
+        {
+            "name": "Barding, Medium creature",
+            "cost": "×2",
+            "weight": "×1"
+        },
+        {
+            "name": "Barding, Large creature",
+            "cost": "×4",
+            "weight": "×2"
+        },
+        {
+            "name": "Bit and bridle",
+            "cost": "2 gp",
+            "weight": "1 lb."
+        },
+        {
+            "name": "Dog, guard",
+            "cost": "25 gp"
+        },
+        {
+            "name": "Dog, riding",
+            "cost": "150 gp"
+        },
+        {
+            "name": "Donkey or mule",
+            "cost": "8 gp"
+        },
+        {
+            "name": "Feed (per day)",
+            "cost": "5 cp",
+            "weight": "10 lbs."
+        },
+        {
+            "name": "Horse, heavy",
+            "cost": "200 gp"
+        },
+        {
+            "name": "Horse, heavy (combat trained)",
+            "cost": "300 gp"
+        },
+        {
+            "name": "Horse, light",
+            "cost": "75 gp"
+        },
+        {
+            "name": "Horse, light(combat trained)",
+            "cost": "110 gp"
+        },
+        {
+            "name": "Pony",
+            "cost": "30 gp"
+        },
+        {
+            "name": "Pony (combat trained)",
+            "cost": "45 gp"
+        },
+        {
+            "name": "Saddle, Military",
+            "cost": "20 gp",
+            "weight": "30 lbs."
+        },
+        {
+            "name": "Saddle, Pack",
+            "cost": "5 gp",
+            "weight": "15 lbs."
+        },
+        {
+            "name": "Saddle, Riding",
+            "cost": "10 gp",
+            "weight": "25 lbs."
+        },
+        {
+            "name": "Saddle, Exotic, Military",
+            "cost": "60 gp",
+            "weight": "40 lbs."
+        },
+        {
+            "name": "Saddle, Exotic, Pack",
+            "cost": "15 gp",
+            "weight": "20 lbs."
+        },
+        {
+            "name": "Saddle, Exotic, Riding",
+            "cost": "30 gp",
+            "weight": "30 lbs."
+        },
+        {
+            "name": "Saddlebags",
+            "cost": "4 gp",
+            "weight": "8 lbs."
+        },
+        {
+            "name": "Stabling (per day)",
+            "cost": "5 sp"
+        },
+        {
+            "name": "Carriage",
+            "cost": "100 gp",
+            "weight": "600 lbs."
+        },
+        {
+            "name": "Cart",
+            "cost": "15 gp",
+            "weight": "200 lbs."
+        },
+        {
+            "name": "Galley",
+            "cost": "30,000 gp"
+        },
+        {
+            "name": "Keelboat",
+            "cost": "3,000 gp"
+        },
+        {
+            "name": "Longship",
+            "cost": "10,000 gp"
+        },
+        {
+            "name": "Rowboat",
+            "cost": "50 gp",
+            "weight": "100 lbs."
+        },
+        {
+            "name": "Oar",
+            "cost": "2 gp",
+            "weight": "10 lbs."
+        },
+        {
+            "name": "Sailing ship",
+            "cost": "10,000 gp"
+        },
+        {
+            "name": "Sled",
+            "cost": "20 gp",
+            "weight": "300 lbs."
+        },
+        {
+            "name": "Wagon",
+            "cost": "35 gp",
+            "weight": "400 lbs."
+        },
+        {
+            "name": "Warship",
+            "cost": "25,000 gp"
+        },
+        {
+            "name": "Coach cab",
+            "cost": "3 cp per mile"
+        },
+        {
+            "name": "Hireling, trained",
+            "cost": "3 sp per day"
+        },
+        {
+            "name": "Hireling, untrained",
+            "cost": "1 sp per day"
+        },
+        {
+            "name": "Messenger",
+            "cost": "2 cp per mile"
+        },
+        {
+            "name": "Road or gate toll",
+            "cost": "1 cp"
+        },
+        {
+            "name": "Ship's passage",
+            "cost": "1 sp per mile"
+        },
+        {
+            "name": "Spellcasting",
+            "cost": "Caster level × spell level × 10 gp3"
+        }
+    ]
+}

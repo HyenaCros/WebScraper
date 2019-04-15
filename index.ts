@@ -9,10 +9,10 @@ const session = driver.session();
 const url = 'http://legacy.aonprd.com/coreRulebook/equipment.html';//for pulling the sorcers spell to change use the correct page
 Axios.get(url).then(res => {
     const $: JQueryStatic = cheerio.load(res.data);//dont change
-    const ArmorOrShield = [];
+    const Item = [];
     let Type: any = 'unarmed';
     let pro: any = '';
-    $('#table-6-6-armor-and-shields').children().each(function (i) {//jquery selector #id . is for class
+    $('#table-6-9-goods-and-services').children().each(function (i) {//jquery selector #id . is for class
         if ($(this).is('thead')) {
             $(this).children().each(function (k) {
                 $(this).children().each(function (j) {
@@ -27,63 +27,62 @@ Axios.get(url).then(res => {
         }
         if ($(this).is('tbody')) {
             $(this).children().each(function (k) {
-                let armor: any = {};
+                let item: any = {};
                 $(this).children().each(function (j) {
                     if (j == 0) {
                         if ($(this).attr('colspan') == '9') {
                             Type = $(this).text();
                         }
                         else {
-                            armor.type1 = Type;
-                            armor.name = $(this).text();
+                            item.name = $(this).text();
                             console.log($(this).text());
                         }
 
                     }
                     else if (j == 1) {
                         if ($(this).text() != '—') {
-                            armor.cost = $(this).text();
+                            item.cost = $(this).text();
                         }
                     }
                     else if (j == 2) {
                         if ($(this).text() != '—') {
-                            armor.bonus = $(this).text();
+                            item.weight = $(this).text();
                         }
                     }
                     else if (j == 3) {
                         if ($(this).text() != '—') {
-                            armor.maxDexBonus = $(this).text();
+                            item.maxDexBonus = $(this).text();
                         }
                     }
                     else if (j == 4) {
                         if ($(this).text() != '—') {
-                            armor.ACP = $(this).text();
+                            item.ACP = $(this).text();
                         }
                     }
                     else if (j == 5) {
                         if ($(this).text() != '—') {
-                            armor.ArcaneSpellFailure = $(this).text();
+                            item.ArcaneSpellFailure = $(this).text();
                         }
                     }
                     else if (j == 6) {
                         if ($(this).text() != '—') {
-                            armor.speed30 = $(this).text();
+                            item.speed30 = $(this).text();
                         }
                     }
                     else if (j == 7) {
                         if ($(this).text() != '—') {
-                            armor.speed20 = $(this).text();
+                            item.speed20 = $(this).text();
                         }
                     }
                     else if (j == 8) {
                         if ($(this).text() != '—') {
-                            armor.weight = $(this).text();
+                            item.weight = $(this).text();
                         }
                     }
                 })
-                //ArmorOrShield.push(armor);
-                if (Object.keys(armor).length > 0) {
-                    ArmorOrShield.push(armor);
+                //Item.push(item);
+                if (Object.keys(item).length > 0) {
+                    Item.push(item);
                 }
             })
 
@@ -98,7 +97,7 @@ Axios.get(url).then(res => {
     levels.forEach((level, i) => {
         query += `set l${i + 1}.knownSpells = [${level}]\n`;
     });*/
-    writeFileSync("Armor.json", JSON.stringify({ ArmorOrShield }, null, 4))//level is the data 
+    writeFileSync("Items.json", JSON.stringify({ Item }, null, 4))//level is the data 
     //return session.run(query);// do not call till ready 
 }).catch(err => {
     console.log(err);

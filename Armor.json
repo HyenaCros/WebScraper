@@ -193,7 +193,7 @@
             "type1": "Shields  ",
             "name": "Shield, tower",
             "cost": "30 gp",
-            "bonus": "+43",
+            "bonus": "+4",
             "maxDexBonus": "+2",
             "ACP": "–10",
             "ArcaneSpellFailure": "50%",
