@@ -647,8 +647,8 @@
             "special": "trip"
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Longbow",
             "cost": "75 gp",
             "dmgS": "1d6",
@@ -659,15 +659,15 @@
             "dmgType": "P"
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Arrows (20)",
             "cost": "1 gp",
             "weight": "3 lbs."
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Longbow, composite",
             "cost": "100 gp",
             "dmgS": "1d6",
@@ -678,15 +678,15 @@
             "dmgType": "P"
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Arrows (20)",
             "cost": "1 gp",
             "weight": "3 lbs."
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Shortbow",
             "cost": "30 gp",
             "dmgS": "1d4",
@@ -697,15 +697,15 @@
             "dmgType": "P"
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Arrows (20)",
             "cost": "1 gp",
             "weight": "3 lbs."
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Shortbow, composite",
             "cost": "75 gp",
             "dmgS": "1d4",
@@ -716,8 +716,8 @@
             "dmgType": "P"
         },
         {
-            "proficiency": "Ranged Weapons",
-            "WeaponType": "Two-Handed Melee Weapons",
+            "proficiency": "Martial Weapons",
+            "WeaponType": "Ranged Weapons",
             "name": "Arrows (20)",
             "cost": "1 gp",
             "weight": "3 lbs."

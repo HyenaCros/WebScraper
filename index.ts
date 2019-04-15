@@ -16,8 +16,12 @@ Axios.get(url).then(res => {
         if ($(this).is('thead')) {
             $(this).children().each(function (k) {
                 $(this).children().each(function (j) {
-                    if (j == 0) {
+                    if (j == 0 && $(this).attr('colspan') != '9') {
                         pro = $(this).text();
+                        console.log("set the pro to " + $(this).text());
+                    }
+                    else if($(this).attr('colspan') == '9'){
+                        Type = $(this).text();
                     }
 
                 })
@@ -32,11 +36,12 @@ Axios.get(url).then(res => {
                     if (j == 0) {
                         if ($(this).attr('colspan') == '9') {
                             Type = $(this).text();
+                            
                         }
                         else {
                             weapon.WeaponType = Type;
                             weapon.name = $(this).text();
-                            console.log($(this).text());
+                            
                         }
 
                     }
