@@ -1,9 +1,6 @@
 {
     "Weapon": [
         {
-            "proficiency": "Simple Weapons"
-        },
-        {
             "proficiency": "Simple Weapons",
             "WeaponType": "Unarmed Attacks",
             "name": "Gauntlet",
@@ -23,9 +20,6 @@
             "critMultiplier": "×2",
             "dmgType": "B",
             "special": "nonlethal"
-        },
-        {
-            "proficiency": "Simple Weapons"
         },
         {
             "proficiency": "Simple Weapons",
@@ -85,9 +79,6 @@
             "special": "trip"
         },
         {
-            "proficiency": "Simple Weapons"
-        },
-        {
             "proficiency": "Simple Weapons",
             "WeaponType": "One-Handed Melee Weapons",
             "name": "Club",
@@ -133,9 +124,6 @@
             "dmgType": "P"
         },
         {
-            "proficiency": "Simple Weapons"
-        },
-        {
             "proficiency": "Simple Weapons",
             "WeaponType": "Two-Handed Melee Weapons",
             "name": "Longspear",
@@ -170,9 +158,6 @@
             "weight": "6 lbs.",
             "dmgType": "P",
             "special": "brace"
-        },
-        {
-            "proficiency": "Simple Weapons"
         },
         {
             "proficiency": "Simple Weapons",
@@ -270,9 +255,6 @@
             "name": "Bullets, sling (10)",
             "cost": "1 sp",
             "weight": "5 lbs."
-        },
-        {
-            "proficiency": "Martial Weapons"
         },
         {
             "proficiency": "Martial Weapons",
@@ -400,9 +382,6 @@
             "dmgType": "P"
         },
         {
-            "proficiency": "Martial Weapons"
-        },
-        {
             "proficiency": "Martial Weapons",
             "WeaponType": "One-Handed Melee Weapons",
             "name": "Battleaxe",
@@ -514,9 +493,6 @@
             "critMultiplier": "×3",
             "weight": "5 lbs.",
             "dmgType": "B"
-        },
-        {
-            "proficiency": "Martial Weapons"
         },
         {
             "proficiency": "Martial Weapons",
@@ -723,9 +699,6 @@
             "weight": "3 lbs."
         },
         {
-            "proficiency": "Exotic Weapons"
-        },
-        {
             "proficiency": "Exotic Weapons",
             "WeaponType": "Light Melee Weapons",
             "name": "Kama",
@@ -774,9 +747,6 @@
             "special": "monk"
         },
         {
-            "proficiency": "Exotic Weapons"
-        },
-        {
             "proficiency": "Exotic Weapons",
             "WeaponType": "One-Handed Melee Weapons",
             "name": "Sword, bastard",
@@ -809,9 +779,6 @@
             "weight": "2 lbs.",
             "dmgType": "S",
             "special": "disarm, nonlethal, reach, trip"
-        },
-        {
-            "proficiency": "Exotic Weapons"
         },
         {
             "proficiency": "Exotic Weapons",
@@ -895,9 +862,6 @@
             "weight": "12 lbs.",
             "dmgType": "P or S",
             "special": "brace, double"
-        },
-        {
-            "proficiency": "Exotic Weapons"
         },
         {
             "proficiency": "Exotic Weapons",

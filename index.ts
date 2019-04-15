@@ -32,15 +32,17 @@ Axios.get(url).then(res => {
             $(this).children().each(function (k) {
                 let weapon:any = {};
                 $(this).children().each(function (j) {
-                    weapon.proficiency = pro;
+                    
                     if (j == 0) {
                         if ($(this).attr('colspan') == '9') {
                             Type = $(this).text();
                             
                         }
                         else {
+                            weapon.proficiency = pro;
                             weapon.WeaponType = Type;
                             weapon.name = $(this).text();
+                            
                             
                         }
 
