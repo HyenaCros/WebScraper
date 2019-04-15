@@ -1,0 +1,223 @@
+{
+    "ArmorOrShield": [
+        {
+            "type1": "Light armor  ",
+            "name": "Padded",
+            "cost": "5 gp",
+            "bonus": "+1",
+            "maxDexBonus": "+8",
+            "ACP": "0",
+            "ArcaneSpellFailure": "5%",
+            "speed30": "30 ft.",
+            "speed20": "20 ft.",
+            "weight": "10 lbs."
+        },
+        {
+            "type1": "Light armor  ",
+            "name": "Leather",
+            "cost": "10 gp",
+            "bonus": "+2",
+            "maxDexBonus": "+6",
+            "ACP": "0",
+            "ArcaneSpellFailure": "10%",
+            "speed30": "30 ft.",
+            "speed20": "20 ft.",
+            "weight": "15 lbs."
+        },
+        {
+            "type1": "Light armor  ",
+            "name": "Studded leather",
+            "cost": "25 gp",
+            "bonus": "+3",
+            "maxDexBonus": "+5",
+            "ACP": "–1",
+            "ArcaneSpellFailure": "15%",
+            "speed30": "30 ft.",
+            "speed20": "20 ft.",
+            "weight": "20 lbs."
+        },
+        {
+            "type1": "Light armor  ",
+            "name": "Chain shirt",
+            "cost": "100 gp",
+            "bonus": "+4",
+            "maxDexBonus": "+4",
+            "ACP": "–2",
+            "ArcaneSpellFailure": "20%",
+            "speed30": "30 ft.",
+            "speed20": "20 ft.",
+            "weight": "25 lbs."
+        },
+        {
+            "type1": "Medium armor  ",
+            "name": "Hide",
+            "cost": "15 gp",
+            "bonus": "+4",
+            "maxDexBonus": "+4",
+            "ACP": "–3",
+            "ArcaneSpellFailure": "20%",
+            "speed30": "20 ft.",
+            "speed20": "15 ft.",
+            "weight": "25 lbs."
+        },
+        {
+            "type1": "Medium armor  ",
+            "name": "Scale mail",
+            "cost": "50 gp",
+            "bonus": "+5",
+            "maxDexBonus": "+3",
+            "ACP": "–4",
+            "ArcaneSpellFailure": "25%",
+            "speed30": "20 ft.",
+            "speed20": "15 ft.",
+            "weight": "30 lbs."
+        },
+        {
+            "type1": "Medium armor  ",
+            "name": "Chainmail",
+            "cost": "150 gp",
+            "bonus": "+6",
+            "maxDexBonus": "+2",
+            "ACP": "–5",
+            "ArcaneSpellFailure": "30%",
+            "speed30": "20 ft.",
+            "speed20": "15 ft.",
+            "weight": "40 lbs."
+        },
+        {
+            "type1": "Medium armor  ",
+            "name": "Breastplate",
+            "cost": "200 gp",
+            "bonus": "+6",
+            "maxDexBonus": "+3",
+            "ACP": "–4",
+            "ArcaneSpellFailure": "25%",
+            "speed30": "20 ft.",
+            "speed20": "15 ft.",
+            "weight": "30 lbs."
+        },
+        {
+            "type1": "Heavy armor  ",
+            "name": "Splint mail",
+            "cost": "200 gp",
+            "bonus": "+7",
+            "maxDexBonus": "+0",
+            "ACP": "–7",
+            "ArcaneSpellFailure": "40%",
+            "speed30": "20 ft.2",
+            "speed20": "15 ft.2",
+            "weight": "45 lbs."
+        },
+        {
+            "type1": "Heavy armor  ",
+            "name": "Banded mail",
+            "cost": "250 gp",
+            "bonus": "+7",
+            "maxDexBonus": "+1",
+            "ACP": "–6",
+            "ArcaneSpellFailure": "35%",
+            "speed30": "20 ft.2",
+            "speed20": "15 ft.2",
+            "weight": "35 lbs."
+        },
+        {
+            "type1": "Heavy armor  ",
+            "name": "Half-plate",
+            "cost": "600 gp",
+            "bonus": "+8",
+            "maxDexBonus": "+0",
+            "ACP": "–7",
+            "ArcaneSpellFailure": "40%",
+            "speed30": "20 ft.2",
+            "speed20": "15 ft.2",
+            "weight": "50 lbs."
+        },
+        {
+            "type1": "Heavy armor  ",
+            "name": "Full plate",
+            "cost": "1,500 gp",
+            "bonus": "+9",
+            "maxDexBonus": "+1",
+            "ACP": "–6",
+            "ArcaneSpellFailure": "35%",
+            "speed30": "20 ft.2",
+            "speed20": "15 ft.2",
+            "weight": "50 lbs."
+        },
+        {
+            "type1": "Shields  ",
+            "name": "Buckler",
+            "cost": "5 gp",
+            "bonus": "+1",
+            "ACP": "–1",
+            "ArcaneSpellFailure": "5%",
+            "weight": "5 lbs."
+        },
+        {
+            "type1": "Shields  ",
+            "name": "Shield, light wooden",
+            "cost": "3 gp",
+            "bonus": "+1",
+            "ACP": "–1",
+            "ArcaneSpellFailure": "5%",
+            "weight": "5 lbs."
+        },
+        {
+            "type1": "Shields  ",
+            "name": "Shield, light steel",
+            "cost": "9 gp",
+            "bonus": "+1",
+            "ACP": "–1",
+            "ArcaneSpellFailure": "5%",
+            "weight": "6 lbs."
+        },
+        {
+            "type1": "Shields  ",
+            "name": "Shield, heavy wooden",
+            "cost": "7 gp",
+            "bonus": "+2",
+            "ACP": "–2",
+            "ArcaneSpellFailure": "15%",
+            "weight": "10 lbs."
+        },
+        {
+            "type1": "Shields  ",
+            "name": "Shield, heavy steel",
+            "cost": "20 gp",
+            "bonus": "+2",
+            "ACP": "–2",
+            "ArcaneSpellFailure": "15%",
+            "weight": "15 lbs."
+        },
+        {
+            "type1": "Shields  ",
+            "name": "Shield, tower",
+            "cost": "30 gp",
+            "bonus": "+43",
+            "maxDexBonus": "+2",
+            "ACP": "–10",
+            "ArcaneSpellFailure": "50%",
+            "weight": "45 lbs."
+        },
+        {
+            "type1": "Extras  ",
+            "name": "Armor spikes",
+            "cost": "+50 gp",
+            "weight": "+10 lbs."
+        },
+        {
+            "type1": "Extras  ",
+            "name": "Gauntlet, locked",
+            "cost": "8 gp",
+            "ACP": "special",
+            "ArcaneSpellFailure": "n/a4",
+            "weight": "+5 lbs."
+        },
+        {
+            "type1": "Extras  ",
+            "name": "Shield spikes",
+            "cost": "+10 gp",
+            "weight": "+5 lbs."
+        }
+    ]
+}
